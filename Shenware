@@ -1,40 +1,37 @@
 if game.PlaceId == 2788229376 then
 
- local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
---
-    game.StarterGui:SetCore("SendNotification",  {
-    Title = "Shenware";
-    Text = "Enjoy Exploiting";
-    Icon = "https://imgur.com/gallery/GxaRX";
-    Duration = 5;
-    Callback = NotificationBindable;
-    })
-
-    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Shenware | SH3N#5041", "Midnight")
-
-
-    -- MAIN 
-    local Tab = Window:NewTab("Main")
-    local Section = Tab:NewSection("Main")
-
-
-
-    -- LOCK
-    local Tab = Window:NewTab("Lock")
-    local Section = Tab:NewSection("Lock")
-    Section:NewButton("BlackDot", "BlackDot", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/nigckererlock'))()
-    end)
-    Section:NewButton("BlueDot", "BlueDot", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/bluedot'))()    
-    end)
-    Section:NewButton("RedDot", "RedDot", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/reddot'))()    
-    end)
-    Section:NewButton("BoxLock", "BoxLock", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/boxlock'))()
-    end)
-
-end
+    local NotificationBindable = Instance.new("BindableFunction")
+   NotificationBindable.OnInvoke = callback
+   --
+       game.StarterGui:SetCore("SendNotification",  {
+       Title = "Shenware";
+       Text = "Enjoy Exploiting";
+       Icon = "https://imgur.com/gallery/GxaRX";
+       Duration = 5;
+       Callback = NotificationBindable;
+       })
+   
+       local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+       local Window = Library.CreateLib("Shenware | SH3N#5041", "Midnight")
+   
+   
+       -- MAIN 
+       local Tab = Window:NewTab("Main")
+       local Section = Tab:NewSection("Main")
+   
+   
+   
+       -- LOCK
+       local Tab = Window:NewTab("Lock")
+       local Section = Tab:NewSection("Lock")
+       Section:NewButton("BlackDot", "BlackDot", function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/nigckererlock'))()
+       end)
+       Section:NewButton("BlueDot", "BlueDot", function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/bluedot'))()    
+       end)    
+       Section:NewButton("BoxLock", "BoxLock", function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/boxlock'))()
+       end)
+   
+   end
