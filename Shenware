@@ -31,7 +31,10 @@ NotificationBindable.OnInvoke = callback
         loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/bluedot'))()    
     end)
     Section:NewButton("PinkDot", "PinkDot", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/bluedot'))()    
+        loadstring(game:HttpGet(`https://raw.githubusercontent.com/SH3NNN/xd/main/reddot'))()    
+    end)
+    Section:NewButton("BoxLock", "BoxLock", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/boxlock'))()
     end)
 
 end
