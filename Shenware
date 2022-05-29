@@ -34,6 +34,6 @@ if game.PlaceId == 2788229376 then
            loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/boxlock'))()
        end)
        Section:NewButton("Purple BoxLock", "Purple BoxLock", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/boxlock'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/purpleboxlockwithcircle'))()
        end)
    end
