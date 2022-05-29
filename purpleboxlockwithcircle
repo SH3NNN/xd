@@ -7,7 +7,6 @@
 ╚═════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═╝░
 
 ]]
-
     local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 --
@@ -18,7 +17,6 @@ NotificationBindable.OnInvoke = callback
     Duration = 5;
     Callback = NotificationBindable;
     })
-
 
 -- Toggle
 getgenv().Target = true
@@ -100,7 +98,7 @@ end)
     end
     elseif not Locking then
          if getgenv().ChatMode then
-        local A_1 = "Unlocked!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+        local A_1 = "Unlocked" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
         	end	
         if getgenv().NotifMode then
                         game.StarterGui:SetCore("SendNotification", {
