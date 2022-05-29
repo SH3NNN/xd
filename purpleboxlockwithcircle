@@ -7,6 +7,19 @@
 ╚═════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═╝░
 
 ]]
+
+    local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+    game.StarterGui:SetCore("SendNotification",  {
+    Title = "Shenware";
+    Text = "Press 'c' To Lock";
+    Icon = "https://imgur.com/gallery/GxaRX";
+    Duration = 5;
+    Callback = NotificationBindable;
+    })
+
+
 -- Toggle
 getgenv().Target = true
 -- Configuration
@@ -80,7 +93,7 @@ end)
         	end	
                if getgenv().NotifMode then
     			game.StarterGui:SetCore("SendNotification", {
-        Title = "";
+        Title = "Shenware";
         Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName);
     
     })
