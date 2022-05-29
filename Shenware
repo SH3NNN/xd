@@ -25,13 +25,15 @@ if game.PlaceId == 2788229376 then
        local Tab = Window:NewTab("Lock")
        local Section = Tab:NewSection("Lock")
        Section:NewButton("BlackDot", "BlackDot", function()
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/nigckererlock'))()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/nigckererlock'))() 
        end)
        Section:NewButton("BlueDot", "BlueDot", function()
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/bluedot'))()    
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/bluedot'))()
        end)    
        Section:NewButton("BoxLock", "BoxLock", function()
            loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/boxlock'))()
        end)
-   
+       Section:NewButton("Purple BoxLock", "Purple BoxLock", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/boxlock'))()
+       end)
    end
