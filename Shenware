@@ -10,7 +10,7 @@ if game.PlaceId == 2788229376 then
        Duration = 5;
        Callback = NotificationBindable;
        })
-   
+
        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
        local Window = Library.CreateLib("Shenware | SH3N#5041", "Midnight")
    
@@ -18,22 +18,46 @@ if game.PlaceId == 2788229376 then
        -- MAIN 
        local Tab = Window:NewTab("Main")
        local Section = Tab:NewSection("Main")
-   
-   
-   
+
+       -- Fly 
+       Section:NewButton("Fly", "Fly", function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/fly'))()
+       end)
+    
+       -- Fake Macro
+       Section:NewButton("Fake Macro", "Fake Macro", function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/fakemacro'))()
+       end)
+
+       -- SpinBot
+       Section:NewButton("Spinbot", "Spinbot", function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/Spinbot'))()
+       end)
+
+
        -- LOCK
        local Tab = Window:NewTab("Lock")
        local Section = Tab:NewSection("Lock")
+
+       -- BlackDot
        Section:NewButton("BlackDot", "BlackDot", function()
            loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/nigckererlock'))() 
        end)
+
+       -- BlueDot
        Section:NewButton("BlueDot", "BlueDot", function()
            loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/bluedot'))()
-       end)    
+       end)   
+       
+       -- BoxLock
        Section:NewButton("BoxLock", "BoxLock", function()
            loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/boxlock'))()
        end)
+
+       -- Purple BoxLock
        Section:NewButton("Purple BoxLock", "Purple BoxLock", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/purpleboxlockwithcircle'))()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/SH3NNN/xd/main/purpleboxlockwithcircle'))()
        end)
-   end
+
+
+    end
