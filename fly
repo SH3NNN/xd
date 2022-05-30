@@ -1,3 +1,11 @@
+       game.StarterGui:SetCore("SendNotification",  {
+       Title = "Shenware";
+       Text = "Enjoy Exploiting";
+       Icon = "https://imgur.com/gallery/GxaRX";
+       Duration = 5;
+       Callback = NotificationBindable;
+       })
+
 local plr = game.Players.LocalPlayer
 local mouse = plr:GetMouse()
 
