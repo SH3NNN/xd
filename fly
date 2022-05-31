@@ -1,6 +1,6 @@
        game.StarterGui:SetCore("SendNotification",  {
        Title = "Shenware";
-       Text = "Enjoy Exploiting";
+       Text = "Press 'x' to Fly";
        Icon = "https://imgur.com/gallery/GxaRX";
        Duration = 5;
        Callback = NotificationBindable;
